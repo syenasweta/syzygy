@@ -2,7 +2,7 @@
 
 # Syzygy
 
-Syzygia is mechanical keyboard project by Nashrullah Ali Fauzi.
+Syzygy is mechanical keyboard project by Nashrullah Ali Fauzi.
 
 ## Keyboard Layout
 
