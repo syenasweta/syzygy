@@ -1,6 +1,6 @@
 ![Syzygy](syzygy.png)
 
-# Syzygy
+# SYZYGY
 
 Syzygy is mechanical keyboard project by Nashrullah Ali Fauzi.
 
