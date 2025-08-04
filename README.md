@@ -2,7 +2,7 @@
 
 # SYZYGY
 
-Syzygy is mechanical keyboard with 66 switch, no keycap stabilizer required.
+Syzygy, the mechanical keyboard with sixty six switches, no keycap stabilizer required.
 
 ## Keyboard Layout
 
@@ -74,5 +74,3 @@ Project plan:
 - KMK
 - ZMK
 - Others
-
-Syzygy mechanical keyboard by Syenasweta (Nashrullah Ali Fauzi)
