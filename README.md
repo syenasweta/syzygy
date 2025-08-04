@@ -2,7 +2,7 @@
 
 # SYZYGY
 
-Syzygy is mechanical keyboard project by Nashrullah Ali Fauzi.
+Syzygy is mechanical keyboard with 66 switch, no keycap stabilizer required.
 
 ## Keyboard Layout
 
@@ -14,8 +14,6 @@ Syzygy is mechanical keyboard project by Nashrullah Ali Fauzi.
 
 Project plan:
 
-- 66 switches
-- No keycap stabilizer required
 - Display
 - Sound
 - Encoders
@@ -29,10 +27,10 @@ Project plan:
 
 |Size (u)|Qty|
 |--------|---|
-|1u      |   |
-|1.25u   |   |
-|1.5u    |   |
-|1.75u   |   |
+|1u      |54 |
+|1.25u   |4  |
+|1.5u    |4  |
+|1.75u   |4  |
 |Total   |66 |
 
 ### Switch
@@ -77,3 +75,4 @@ Project plan:
 - ZMK
 - Others
 
+Syzygy mechanical keyboard by Syenasweta (Nashrullah Ali Fauzi)
