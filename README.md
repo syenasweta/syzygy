@@ -1,4 +1,4 @@
-![Syzygy](syzygy.png)
+![Syzygy](syzygy.jpg)
 
 # SYZYGY
 
