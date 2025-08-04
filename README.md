@@ -35,7 +35,7 @@ Project plan:
 
 ### Switch
 
-- CHERRY MX BLACK
+- Cherry MX Black
 
 ### Case
 
