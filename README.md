@@ -1,8 +1,10 @@
 ![Syzygy](syzygy.jpg)
 
-# SYZYGY
+# Syzygy
 
-Syzygy, the mechanical keyboard with sixty six switches, no keycap stabilizer required.
+Syzygy,the mechanical keyboard with sixty six switches, no keycap stabilizer required.
+
+
 
 ## Keyboard Layout
 
