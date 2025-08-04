@@ -43,6 +43,20 @@ Project plan:
 
 - 3D print case and/or sandwich case/wood
 
+#### Sandwich
+
+##### Top
+
+![Syzygy](keyboard-case/top.svg)
+
+##### Switch
+
+![Syzygy](keyboard-case/switch.svg)
+
+##### Bottom
+
+![Bottom](keyboard-case/bottom.svg)
+
 ### Plate
 
 - Aluminum Plate
