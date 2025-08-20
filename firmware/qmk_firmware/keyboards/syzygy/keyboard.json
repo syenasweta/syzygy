@@ -1,0 +1,103 @@
+{
+    "keyboard_name": "Syzygy",
+    "maintainer": "Nashrullah Ali Fauzi",
+    "manufacturer": "Syenasweta",
+    "url": "https://github.com/syenasweta/ssyzygy",
+    "bootloader": "rp2040",
+    "processor": "RP2040",
+    "features": {
+        "bootmagic": true,
+        "command": true,
+        "console": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "bootmagic": {
+        "matrix": [0, 0]
+    },
+    "encoder": {
+        "enabled": true,
+        "encoder_map_enable": true,
+        "rotary": [{
+            "pin_a": "GP16",
+            "pin_b": "GP17",
+            "resolution": 2
+            }]
+    },
+    "debounce": 5,
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["GP18","GP19", "GP20"],
+        "rows": ["GP21"]
+    },
+    "mouse_key": {
+        "enabled": true,
+        "delay": 10,
+        "interval": 20,
+        "move_delta": 8,
+        "max_speed": 10,
+        "time_to_max": 30,
+        "wheel_delay": 10,
+        "wheel_interval": 80,
+        "whell_delta": 1,
+        "whell_max_speed": 8,
+        "whell_time_to_max": 40
+    },
+    "layouts": {
+        "LAYOUT_ortho_1x3x2": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1}
+            ]
+        }
+    },
+    "split": {
+        "enabled": true,
+        "main": "left",
+        "transport": { 
+            "protocol": "serial"
+        },
+        "serial": {
+            "driver": "vendor"
+        },
+        "soft_serial_speed": 1,
+        "usb_detect": {
+            "timeout": 2500
+        },
+        "matrix_pins": {
+            "right": {
+                "cols": ["GP6","GP7", "GP8"],
+                "rows": ["GP9"]
+            }
+        },
+        "bootmagic": {
+            "matrix": [0, 0]
+        },
+        "encoder": {
+            "right": {
+                "rotary": [{
+                    "pin_a": "GP10",
+                    "pin_b": "GP11",
+                    "resolution": 2
+                }]
+            }
+        }
+    },
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x4173",
+        "vid": "0x5373"
+    },
+    "qmk": {
+        "locking": {
+            "enabled": true,
+            "resync": true
+        }
+    }
+}

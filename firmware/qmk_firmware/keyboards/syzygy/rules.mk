@@ -1,0 +1,5 @@
+AUDIO_ENABLE = yes
+AUDIO_DRIVER = pwm_hardware
+ENCODER_MAP_ENABLE = yes
+
+
