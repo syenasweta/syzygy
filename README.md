@@ -2,7 +2,7 @@
 
 # Syzygy
 
-Syzygy,the mechanical keyboard with sixty six switches, no keycap stabilizer required. Build by Syenasweta a.k.a. Nashrullah Ali Fauzi.
+Syzygy, the mechanical keyboard with sixty six switches, no keycap stabilizer required. Build by Syenasweta a.k.a. Nashrullah Ali Fauzi.
 
 ## Keyboard Layout
 
@@ -16,8 +16,10 @@ Project plan:
 
 - Sound
 - Encoders
--
-- 
+- Pointing Device
+- Joystick
+- ...
+- ...
 
 ## Keyboard Hardware
 

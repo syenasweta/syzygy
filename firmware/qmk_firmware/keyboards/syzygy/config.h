@@ -60,6 +60,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #define ENCODER_B_PINS { GP15, GP17 }
     #define ENCODER_RESOLUTIONS { 2, 2 }
     #define ENCODER_DEFAULT_POS 0x3
+    #define ENCODER_MAP_ENABLE
     #ifdef ENCODER_MAP_ENABLE
         #define ENCODER_MAP_KEY_DELAY 10
     #endif
@@ -69,10 +70,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEBOUNCE 4
 
 // Matrix
-#define MATRIX_ROWS 1
+#define MATRIX_ROWS 2
 #define MATRIX_COLS 3
-#define MATRIX_COL_PINS { GP18, GP19, GP20 }
-#define MATRIX_ROW_PINS { GP21 }
+#define MATRIX_ROW_PINS { GP10, GP11 }
+#define MATRIX_COL_PINS { GP6, GP7, GP8 }
 
 // Diode Direction
 // COL2ROW = COL = Anode (+), ROW = Cathode (-, marked on diode)
@@ -122,7 +123,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifdef POINTING_DEVICE_ENABLE
     #define ANALOG_JOYSTICK_X_AXIS_PIN 26
     #define ANALOG_JOYSTICK_Y_AXIS_PIN 27
+    #define ANALOG_JOYSTICK_WEIGHTS {0,2,4,5,7,8,9,10,12,13,14,15,15,16,17,18,18,19,19,20,20,21,21,21,22,22,22,22,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,24,24,24,24,24,24,25,25,25,26,26,26,27,28,28,29,29,30,31,32,33,34,35,36,37,38,40,41,43,44,46,48,49,51,53,56,58,60,62,65,68,70,73,76,79,82,85,89,92,96,100}
     #define POINTING_DEVICE_HIRES_SCROLL_ENABLE
     #define POINTING_DEVICE_HIRES_SCROLL_MULTIPLIER 127
     #define POINTING_DEVICE_HIRES_SCROLL_EXPONENT	0
+    #define MOUSE_EXTENDED_REPORT
+    #define WHEEL_EXTENDED_REPORT
 #endif
